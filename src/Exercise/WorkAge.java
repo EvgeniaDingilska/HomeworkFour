@@ -8,12 +8,12 @@ public class WorkAge {
         int age;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please write your age:");
+        System.out.println("Enter your age:");
         age = scanner.nextInt();
 
         if (age > 16 && age <= 102)
         {
-            System.out.format("The age %d is enough for work", age);
+            System.out.println("You are not eligible to work");
         }
 
         System.out.println("The age that you write is not enough for work");
